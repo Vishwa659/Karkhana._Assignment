@@ -3,7 +3,7 @@
 "How you structured the code"   :  
 Created a class called MobiusStrip to group all the logic in one place.
 Input values for radius R, width w, and resolution n
-We calculate X, Y, and Z coordinates using numpy functions, which describe the Möbius strip in 3D space
+We calculate X, Y, and Z coordinates using numpy functions, which describe the MobiusStrip in 3D space
 Used calculus logic to find the surface area
 Taken gradients and then used Simpson's rule from the scipy library to estimate the area
 For each tiny segment, used the Euclidean distance (from scipy.spatial.distance) to measure the length between points and add them up
